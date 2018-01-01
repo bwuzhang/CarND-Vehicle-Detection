@@ -1,0 +1,6 @@
+*.zip
+*.npy
+frames/*
+test_frames/*
+vehicles/*
+non-vehicles/*
