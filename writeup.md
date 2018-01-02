@@ -10,11 +10,11 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 [//]: # (Image References)
-[hog_feature]: ./examples/hog.jpg
-[feature1]: ./examples/feature1.jpg
-[feature2]: ./examples/feature2.jpg
-[feature3]: ./examples/feature3.jpg
-[sliding_windows]: ./examples/sliding_windows.jpg
+[hog_feature]: ./output_images/hog.jpg
+[feature1]: ./output_images/feature1.jpg
+[feature2]: ./output_images/feature2.jpg
+[feature3]: ./output_images/feature3.jpg
+[sliding_windows]: ./output_images/sliding_windows.jpg
 [image1]: ./examples/car_not_car.png
 [image2]: ./examples/HOG_example.jpg
 [image3]: ./examples/sliding_windows.jpg
@@ -23,19 +23,19 @@ The goals / steps of this project are the following:
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
 [video1]: ./project_video.mp4
-[result]: ./examples/result.png
-[result0]: ./examples/result_0.jpg
-[result1]: ./examples/result_1.jpg
-[result2]: ./examples/result_2.jpg
-[result3]: ./examples/result_3.jpg
-[result4]: ./examples/result_4.jpg
-[final_result0]: ./examples/final_result_0.jpg
-[final_result1]: ./examples/final_result_1.jpg
-[final_result2]: ./examples/final_result_2.jpg
-[final_result3]: ./examples/final_result_3.jpg
-[final_result4]: ./examples/final_result_4.jpg
-[car]: ./examples/image0000.png
-[non-car]: ./examples/extra1.png
+[result]: ./output_images/result.png
+[result0]: ./output_images/result_0.jpg
+[result1]: ./output_images/result_1.jpg
+[result2]: ./output_images/result_2.jpg
+[result3]: ./output_images/result_3.jpg
+[result4]: ./output_images/result_4.jpg
+[final_result0]: ./output_images/final_result_0.jpg
+[final_result1]: ./output_images/final_result_1.jpg
+[final_result2]: ./output_images/final_result_2.jpg
+[final_result3]: ./output_images/final_result_3.jpg
+[final_result4]: ./output_images/final_result_4.jpg
+[car]: ./output_images/image0000.png
+[non-car]: ./output_images/extra1.png
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
@@ -44,7 +44,7 @@ The goals / steps of this project are the following:
 
 #### 1. Provide a Writeup / README that includes all the rubric points and how you addressed each one.  You can submit your writeup as markdown or pdf.  [Here](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) is a template writeup for this project you can use as a guide and a starting point.  
 
-Please see project.ipynb for my code. 
+Please see project.ipynb for my code.
 
 ### Histogram of Oriented Gradients (HOG)
 
