@@ -23,6 +23,7 @@ The goals / steps of this project are the following:
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
 [video1]: ./project_video.mp4
+[result]: ./examples/result.png
 [result0]: ./examples/result_0.jpg
 [result1]: ./examples/result_1.jpg
 [result2]: ./examples/result_2.jpg
@@ -83,7 +84,8 @@ The code for sliding window can be found in part 4. I manually chose 5 different
 #### 2. Show some examples of test images to demonstrate how your pipeline is working.  What did you do to optimize the performance of your classifier?
 
 Adding more features definitely increased the accuracy of my classifier. However this also dramatically increased inference time for each image. So I had to choose a low overlap rate for sliding windows, and heavily restrict the amount of area they cover.
-![alt text][image4]
+
+![alt text][result]
 ---
 
 ### Video Implementation
@@ -120,3 +122,5 @@ Here's an example result showing the heatmap from a series of frames of video, t
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
 VideoFileClip reads image into RGB format instead of BGR. It took me some time to figure this out.
+
+There are some false positives in the project video. Adding vehicle tracking between different frames can reduce some noise in the predictions.
